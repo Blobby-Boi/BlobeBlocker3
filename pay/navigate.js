@@ -1,3 +1,3 @@
 navigator.serviceWorker.addEventListener("message", (event) => {
-  location.replace("https://blobeblocker.geometrytip.site/launch.html?domain=" + event.data.url);
+  location.replace("https://us12.proxysite.com/process.php?d=" + event.data.url);
 });
