@@ -1,3 +1,3 @@
 navigator.serviceWorker.addEventListener("message", (event) => {
-  location.replace("https://us12.proxysite.com/process.php?d=" + event.data.url);
+  location.replace("https://tool.geometrytip.site/launch.html?domain=" + event.data.url);
 });
