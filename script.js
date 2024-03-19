@@ -1,4 +1,4 @@
-function buypass() {
+function blobeblocker() {
   if (!window.PaymentRequest) return alert("It cannot be used because it does not support Payment Request API");
 
   new PaymentRequest(
@@ -21,4 +21,4 @@ function buypass() {
   ).show();
 }
 
-document.querySelector("button").onclick = buypass;
+document.querySelector("button").onclick = blobeblocker;
